@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="LogoBlog.png"> <!-- Favicon link -->
+    <style>
+        /* Heading styles for each section */
+        h2 {
+            font-size: 28px;
+            color: #1a237e;
+            margin-bottom: 15px;
+            text-align: center; /* Center-align the section headings */
+        }
+    </style>
+	<title>My Amazing Blog</title>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="LogoBlog.png" alt="My Amazing Blog">
+    </div>
+
+    <nav>
+        <a href="#home">Home</a> | <a href="#about">About</a> | <a href="#contact">Contact</a> | <a href="#blog">Blog</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to My Amazing Blog!</h2>
+    <p>Discover a world of inspiration and knowledge. Start your journey here and explore the captivating content that awaits you.</p>
+    
+    <!-- Add a button to navigate to the blog section -->
+    <button onclick="window.location.href='#blog'">Start Here</button>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Welcome to My Amazing Blog! Explore a collection of engaging content that reflects my passion and expertise. Discover the inspiration behind the blog, learn about my journey, and gain insights into the topics that drive this platform. Join me on a virtual exploration as we delve into a world of creativity, knowledge, and shared experiences. Your journey starts here, where curiosity meets discovery.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out! Use the button below to contact me via email.</p>
+    
+    <!-- Add a styled button with the email link -->
+    <button onclick="window.location.href='mailto:binyamin.rot@gmail.com'">Contact via Email</button>
+</section>
+
+<section id="blog">
+    <h2>My Blog</h2>
+
+    <!-- Buttons for Blog Categories -->
+    <button onclick="window.location.href='blog1.html'">Category 1</button>
+    <button onclick="window.location.href='blog2.html'">Category 2</button>
+    <button onclick="window.location.href='blog3.html'">Category 3</button>
+
+    <!-- Add more buttons for additional categories as needed -->
+
+    <!-- Blog page content goes here -->
+</section>
+
+<footer>
+    <nav>
+        <a href="#home">Home</a> | <a href="#about">About</a> | <a href="#contact">Contact</a> | <a href="#blog">Blog</a>
+    </nav>
+
+    <p>&copy; 2023 My Amazing Blog. All rights reserved.</p>
+</footer>
+
+<!-- Floating symbol for scrolling to the top -->
+<div id="scroll-to-top" onclick="scrollToTop()">↑</div>
+
+<script src="script.js"></script>
+</body>
+</html>
